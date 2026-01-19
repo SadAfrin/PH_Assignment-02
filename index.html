@@ -10,7 +10,7 @@
     <title>PH_A2</title>
 </head>
 <body>
-    <header class="bg-[#1A0B2E]">
+    <header class="bg-[#1A0B2E] border-b border-gray-700">
         <nav class="max-w-7xl mx-auto flex items-center justify-between py-6 px-4">
             
             <!-- Logo -->
@@ -37,15 +37,74 @@
                 ">
                 Subscribe →
             </button>
-
-
         </nav>
+
     </header>
 
 
-    <main>
+    <main class="bg-[#1A0B2E]">
+
+        <!-- Banner Section -->
+        <section class="relative overflow-hidden py-24">
+
+            <!-- Background image -->
+            <img 
+            src="assets/hero-bg.png" 
+            alt="wave background"
+            class="absolute top-1/2 left-0 w-full -translate-y-1/2 opacity-100"
+            />
+
+            <!-- Contents -->
+            <div class="relative z-10 max-w-4xl mx-auto text-center px-4">
+
+                <!-- hero-circle -->
+                <div class="relative w-100 h-100 mx-auto mb-6">
+                    <img 
+                    src="assets/hero-circle.png" 
+                    alt="circle"
+                    class="w-full h-full"
+                    />
+
+                    <!-- Microphone icon -->
+                    <img 
+                    src="assets/microphone.png" 
+                    alt="microphone"
+                    class="absolute top-1/2 left-1/2 w-16 -translate-x-1/2 -translate-y-1/2 w-30"
+                    />
+
+                    <!-- NEW badge -->
+                    <span class="absolute top-6 right-1 bg-green-400 text-black text-xl px-5 py-2 rounded-full font-semibold animate-spin">
+                    NEW
+                    </span>
+                </div>
+
+            <h1 class="text-white text-6xl font-extrabold mb-4">
+                TechWave</span>
+            </h1>
+            <p class="text-gray-300 max-w-xl mx-auto mb-8">
+                Your daily dose of tech insights, productivity hacks, and personal growth
+            </p>
+
+            <!-- Buttons -->
+                <div class="flex justify-center gap-4">
+                    <button class="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-pink-700 to-purple-700 text-white hover:from-pink-500 hover:to-purple-500">
+                    <img src="assets/spotify.png" class="w-5" alt="">
+                    Listen on Spotify
+                    </button>
+                    <button class="flex items-center gap-2 px-6 py-3 rounded-full border border-green-500 text-green-400 hover:border-white hover:text-white">
+                        <img src="assets/message.png" class="w-5" alt="">
+                    Subscribe
+                    </button>
+
+                </div>
+            </div>
+
+        </section>
+    <!-- ------------------------------------- -->
+     
 
     </main>
+
 
     <footer>
 
